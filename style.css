@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(to bottom, #000033 0%, #272b19cf 100%);
+    overflow: hidden; /* Hide scrollbars */
+  }
+  .logo {
+    text-align: center;
+  }
+  .menu {
+    text-align: center;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .description {
+    text-align: center;
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: white;
+  }
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+
+
+  .fa_custom {
+    color: #d8dedf;
+    margin-right: 10px;
+ }
+ .header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+ }
+
+ #personalweb a {
+    margin-left: 10px;
+    color: #d8dedfe3;
+    text-decoration: none;
+    border: groove;
+    font-family: monospace;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+ }
+ button {
+    border-radius: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(177deg, #ffeb3b61, #fffbfb59);
+    color: aliceblue;
+ }
+
+ .slider {
+    /* position: absolute; */
+    rotate: 270deg;
+    top: 100px;
+   }
+.control-panel {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    flex-direction: column;
+    height: 243px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    padding: 10px;
+}
